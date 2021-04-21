@@ -7,7 +7,7 @@ document.write(`
 		<div></div>
 		<ul>
 			<li><a href="/index.html">Startseite</a></li> 
-			<li><a href="/subpages/Kerzen.html">Kerzen</a></li> 
+			<li><a href="/subpages/kerzen.html">Kerzen</a></li> 
 			<li><a href="/subpages/">Raumdüfte</a></li>
 			<li><a href="/subpages/">Accessoires</a></li>
 			<li><a href="/subpages/">Outlet</a></li>
