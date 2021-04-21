@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Calculator</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
+    <script src='sketch.js' defer></script>
+</head>
+<body>
+    <div class="grid">
+        <input type="text" class="output" oninput="calc.updateOnInput();" data-output onblur="this.focus()" autofocus>
+           
+
+        </input>
+
+        <!--First Row-->
+        <button data-symbol>(</button>
+        <button data-symbol>)</button>
+        <button data-symbol>sin()</button>
+        <button data-symbol>cos()</button>
+        <button data-symbol>tan()</button>
+        <!--Second Row-->
+        <button data-symbol>^</button>
+        <button data-symbol>√</button>
+        <button data-symbol>!</button>
+        <button data-clear class="meta-clear" >C</button>
+        <button data-delete >DEL</button>
+        <!--Third Row-->
+        <button data-symbol>π</button>
+        <button data-symbol class="number" >1</button>
+        <button data-symbol class="number" >2</button>
+        <button data-symbol class="number" >3</button>
+        <button data-symbol>÷</button>
+        <!--Fourth Row-->
+        <button data-symbol>e</button>
+        <button data-symbol class="number" >4</button>
+        <button data-symbol class="number" >5</button>
+        <button data-symbol class="number" >6</button>
+        <button data-symbol>*</button>
+        <!--Fifth Row-->
+        <button data-symbol>log()</button>
+        <button data-symbol class="number" >7</button>
+        <button data-symbol class="number" >8</button>
+        <button data-symbol class="number" >9</button>
+        <button data-symbol>+</button>
+        <!--Seventh Row-->
+        <button data-symbol>|</button>
+        <button data-symbol>.</button>
+        <button data-symbol class="number" >0</button>
+        <button data-equals class="meta-equals" >=</button>
+        <button data-symbol>-</button>
+
+    </div>
+</body>
+</html>
