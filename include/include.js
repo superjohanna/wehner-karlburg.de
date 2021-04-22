@@ -1,4 +1,5 @@
 document.write(`
+<meta charset="UTF-8">
 <title>Margit Wehner</title>
 <div class="header-css">
 	<link rel="stylesheet" href="/include/header.css">
