@@ -1,8 +1,28 @@
-.kerzen {
-    display: grid;
-    justify-content: center;
-    grid-template-columns: repeat(3, 30vw);
+@media (min-width: 1020px) {
+    .kerzen {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(3, calc(1vw + 300px));
+    }
 }
+
+@media (max-width: 1020px) and (min-width: 650px) {
+    .kerzen {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(2, calc(1vw + 300px));
+    }
+}
+
+@media (max-width: 650px) {
+    .kerzen {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(1, calc(1vw + 300px));
+    }
+}
+
+
 
 .item {
     border: 2px solid black;
@@ -39,4 +59,3 @@
     margin-left: auto;
     margin-right: auto;
 }
-
